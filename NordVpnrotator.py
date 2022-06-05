@@ -16,6 +16,7 @@ def connect_vpn(nordvpn):
 
 def main():
     connect_vpn(nordvpn)
-    if __name__ == "__main__":
+
+if __name__ == "__main__":
     main()
 
