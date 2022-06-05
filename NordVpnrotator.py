@@ -11,8 +11,8 @@ nordvpn_args = "connect "
 nordvpn = str(nordvpn_bin) + str(nordvpn_args) + str(connect_to)
 
 def connect_vpn(nordvpn):
-        print(f"Connecting to NordVPN in: {connect_to}!")
-            subprocess.call([nordvpn], shell=True)
+    print(f"Connecting to NordVPN in: {connect_to}!")
+    subprocess.call([nordvpn], shell=True)
 
 def main():
     connect_vpn(nordvpn)
